@@ -42,10 +42,10 @@ export const fetchPuppies = () => (dispatch) => {
   const puppiesUrl =
   'https://s3-us-west-2.amazonaws.com/sia-generic-bucket/puppies.json'
   //'https://api.github.com/repos/siakaramalegos/redux_puppies/contents/src/puppies.json'
-  const headers = new Headers()
-  headers.append('Accept', 'application/vnd.github.3.raw')
+  // const headers = new Headers()
+  // headers.append('Accept', 'application/vnd.github.3.raw')
 
-  fetch(puppiesUrl, { headers })
+  fetch(puppiesUrl)
     .then(response => response.json())
     .then(json => {
       dispatch(receivePuppies(json))
