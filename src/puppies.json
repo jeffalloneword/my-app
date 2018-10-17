@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Priscilla Queen",
+    "breed": "Australian Shepherd",
+    "available": true,
+    "pictureHref": "https://img.buzzfeed.com/buzzfeed-static/static/2017-02/24/5/asset/buzzfeed-prod-fastlane-02/sub-buzz-1968-1487931877-7.jpg?downsize=715:*&output-format=auto&output-quality=auto",
+    "id": 1
+  },
+  {
+    "name": "Prince Harry",
+    "breed": "Jack Russell Terrier",
+    "available": false,
+    "pictureHref": "https://www.europuppy.com/wp-content/uploads/desc130-1024x640.jpg",
+    "id": 2
+  },
+  {
+    "name": "Evander Holyfield",
+    "breed": "Boxer",
+    "available": true,
+    "id": 3,
+    "pictureHref": "http://funnypictures.in/wp-content/uploads/2015/01/twisted-boxer-dog-Tongue.jpg"
+  },
+  {
+    "name": "Sean Connery",
+    "breed": "Scottish Terrier",
+    "available": true,
+    "id": 4,
+    "pictureHref": "https://img.buzzfeed.com/buzzfeed-static/static/2013-11/enhanced/webdr06/30/18/enhanced-buzz-765-1385853848-0.jpg?downsize=715:*&output-format=auto&output-quality=auto"
+  }
+]
