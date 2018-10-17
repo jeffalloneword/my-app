@@ -1,8 +1,14 @@
 import React, { Component } from 'react';
 import { Jumbotron, Container } from 'reactstrap';
+import { connect } from 'react-redux'
+import { handleInitialData } from './actions'
 import PuppyListContainer from './containers/PuppyListContainer';
 
 class App extends Component {
+  // componentDidMount() {
+  //   this.props.dispatch(handleInitialData())
+  // }
+
   render() {
     return (
       <div className="App">
@@ -20,4 +26,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default connect()(App);

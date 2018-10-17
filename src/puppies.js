@@ -28,3 +28,9 @@
     "pictureHref": "https://img.buzzfeed.com/buzzfeed-static/static/2013-11/enhanced/webdr06/30/18/enhanced-buzz-765-1385853848-0.jpg?downsize=715:*&output-format=auto&output-quality=auto"
   }
 ]
+
+export function _getPuppies() {
+  return new Promise((res, rej) => {
+    setTimeout(() => res({ ...users }), 1000)
+  })
+}
